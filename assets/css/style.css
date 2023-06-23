@@ -1,0 +1,13 @@
+@media screen and (max-width:770px){
+    .cb-form input,textarea{
+        width: 70% !important;
+    }
+}
+@media screen and (max-width:500px){
+    .cb-form input,textarea{
+        width: 120% !important;
+    }
+    .home-content h5 span{
+        background-color: white !important;
+    }
+}

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iInventors</title>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <nav id="home" class="navbar navbar-expand-lg navbar-light bg-white sticky-top my-3">
+        <div class="container-fluid d-flex justify-content-between">
+          <a class="navbar-brand" href="#">
+            <strong><em>iInventors</em></strong>
+            <img src="./assets/imgs/logo.png" alt="" width="50" height="50" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#blogs"
+                >
+                  Blogs
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/imgs/slider1.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block " style="top: 30%; left: 15%; text-align:left; ">
+              <h2 style="font-size:xxx-large;">Customize <br><span class="text-secondary">Software Development</span></h2>
+              <p>Automate your buisness with our IT Solutions.</p>
+              <button type="button" class="btn btn-danger mt-4">Learn More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/imgs/slider2.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block col-lg-4" style="top: 30%; left: 60%; text-align:left;">
+              <h2 style="font-size:xxx-large;">Mobile App <br><span>Development</span></h2>
+              <hr class="border border-2 opacity-50" style="width: 40%;">
+              <p>What is impossible today is routine tomorrow. Creating apps with Advanced Features like IoT, VR and AR.</p>
+              <button type="button" class="btn btn-danger mt-4 me-1">About Us</button><button type="button" class="btn btn-warning mt-4 ms-1">Learn More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/imgs/slider3.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block " style="top: 30%; left: 15%; text-align:left; ">
+              <h2 style="font-size:xxx-large;">Customize <br><span class="text-secondary">Software Development</span></h2>
+              <p>Automate your buisness with our IT Solutions.</p>
+              <button type="button" class="btn btn-danger mt-4">Learn More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/imgs/slider4.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block col-lg-4" style="top: 30%; left: 60%; text-align:left;">
+              <h2 style="font-size:xxx-large;">Artificial Intelligence<br><span class="text-secondary">Automate what you need</span></h2>
+              <hr class="border border-2 opacity-50" style="width: 40%;">
+              <p>What is impossible today is routine tomorrow. Creating apps with Advanced Features like IoT, VR and AR.</p>
+              <button type="button" class="btn btn-danger mt-4 me-1">About Us</button> <button type="button" class="btn btn-warning mt-4 ms-1">Learn More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/imgs/slider5.jpg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block " style="top: 30%; left: 15%; text-align:left; ">
+              <h2 style="font-size:xxx-large;">Customize <br><span class="text-secondary">Software Development</span></h2>
+              <p>Automate your buisness with our IT Solutions.</p>
+              <button type="button" class="btn btn-danger mt-4">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section id="about" class="my-4">
+        <div class="container">
+          <div class="row">
+            <div class="home-desc text-secondary d-flex flex-column align-items-center my-3">
+              <p class="mb-0">
+                Our smart solutions make your idea come true.
+              </p>
+              <h1 class="text-dark my-3" style="font-weight: 700; text-align:center;">
+                PAKISTAN’S LEADING IT COMPANY
+              </h1>
+              <p style="text-align: center;">
+                iInventors Solutions – we are a group of professional, experienced and enthusiastic IT individuals who are committed to create a better society through the influence of Information Technology. We are one of the Top software houses in Karachi always looking to adapt innovative ways to deliver best solutions for our clients.
+              </p>
+            </div>
+            <div class="home-content d-flex flex-column align-items-center">
+              <h5 style=" text-align:center;"><span  class="bg-primary text-dark px-3">iInventors Solution - Best IT Company in Karachi.</span></h5>
+              <div class="hcontent-card mt-3">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 py-5">
+                  <div class="col d-flex align-items-start">
+                    <i class="fa-solid fa-gear bi flex-shrink-0 me-3 text-primary" style="font-size:xx-large;"></i>
+                    <div>
+                      <h4 class="fw-bold mb-0">ENTERPRISE SOFTWARE DEVELOPMENT</h4>
+                      <p>We as a Software house in Karachi deliver the software that fits your needs. No more, no less! We are Top software houses in Pakistan , IT software company in Karachi best at developing comprehensive systems that cover your entire business operations.</p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <i class="fa-solid fa-mobile bi flex-shrink-0 me-3 text-primary" style="font-size:xx-large;"></i>
+                    <div>
+                      <h4 class="fw-bold mb-0">MOBILE APP DEVELOPMENT</h4>
+                      <p>Our seasoned mobile app developers can help your business grow with user-friendly, engaging, smooth and interactive app.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <i class="fa-solid fa-lightbulb bi flex-shrink-0 me-3 text-primary" style="font-size:xx-large;"></i>
+                    <div>
+                      <h4 class="fw-bold mb-0">ARTIFICIAL INTELLIGENCE</h4>
+                      <p>We provide cutting edge Artificial Intelligence, Machine Learning and Big Data solutions to enable you make smart and data-driven solutions.</p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <i class="fa-brands fa-digital-ocean bi flex-shrink-0 me-3 text-primary" style="font-size:xx-large;"></i>
+                    <div>
+                      <h4 class="fw-bold mb-0">DIGITAL MARKETING</h4>
+                      <p>iInventors Solutions is a full service digital agency that delivers inspiring, eye catchy creatives and maximizes results on online platforms.</p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <i class="fa-solid fa-desktop bi flex-shrink-0 me-3 text-primary" style="font-size:xx-large;"></i>
+                    <div>
+                      <h4 class="fw-bold mb-0">WEB DEVELOPMENT</h4>
+                      <p>From web apps to client portals and everything in between; we design & develop web solutions that builds business efficiency and resonates brand image</p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <i class="fa-solid fa-atom bi flex-shrink-0 me-3 text-primary" style="font-size:xx-large;"></i>
+                    <div>
+                      <h4 class="fw-bold mb-0">CREATIVE DESIGNING</h4>
+                      <p>What we design is a direct reflection of your brand image. Our focus is to ensure the targeted audience is engaged</p>
+                    </div>
+                  </div>
+                </div>
+              </div>  
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="blogs">
+        <div class="container mb-3">
+          <h2 class="my-4" style="text-align: center;">Latest Tech Articles</h2>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/imgs/c1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Artificial Intelligence: What is it and why it matters?</h5>
+                  <p class="card-text">Artificial Intelligence is the next big thing of 20th century. Presently, we don’t see ourselves acquired by AI technology, but soon it’s going to happen. It has its own set of benefits...</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 1 week ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/imgs/c2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">How much does a mobile app cost in 2019?</h5>
+                  <p class="card-text"> A mobile application cost varies from US$1000 to US$100,000,000. It depends upon the scope of features provide in the mobile app. Also the application platform plays a key role in calculating...</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/imgs/c3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">How To Start A Software House In Pakistan</h5>
+                  <p class="card-text">As 20th Century was known for Industrialization Era, this 21st Century is going to be known for Information Technology. Human Kind has reached its peak in connecting world through IT, simplifying our...</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 4 days ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container my-4">
+          <div class="row">
+            <div class="contact-head py-4" style="text-align: center;">
+              <div class="ch-text">
+                <h2 style="font-size: xxx-large;">Contact Us</h2>
+                <h4 style="font-size:xx-large;"><i>Get In Touch</i></h4>
+              </div>
+              <div class="ch-card d-flex align-items-center justify-content-center">
+                <div class="card d-flex align-items-center justify-content-center" style="width: 40rem; border:none;">
+                  <img src="./assets/imgs/logo.png" class="card-img-top" alt="..." style="width: 10rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">iInventors</h5>
+                    <p class="card-text">A company that provides specialization primarily in software products, in either business or consumer software based on the needs of their client base and structure for a software release.</p>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item" style="border: none;"><a href="tel:03498725789" class="text-decoration-none text-secondary">03498725789</a></li>
+                    <li class="list-group-item" style="border: none;"><a href="mailTo:xyz@gmail.com" class="text-decoration-none text-secondary">XYZ@gmail.com</a></li>
+                    <li class="list-group-item" style="border: none;"><a href="https://www.google.com/search?q=shahrah+e+faisal+karachi+map&oq=shahrah+e+faisal+karac&aqs=chrome.1.0i512l2j69i57j0i512l7.6734j0j7&sourceid=chrome&ie=UTF-8#" class="text-decoration-none text-secondary">Lal,Kothi Bus Stop Shahrah-e-Faisal, Karachi.</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="contact-body my-4 bg-light py-4"  style="text-align: center;">
+              <div class="cb-text">
+                <h2 style="font-size: xxx-large;">Leave us your info</h2>
+                <p style="font-size:large;" class="text-secondary"><i>and we'll get back to you.</i></p>
+              </div>
+            <div class="cb-form d-flex justify-content-between flex-column align-items-center gap-4 px-5">
+                  <input type="text" class="form-control" id="FName" placeholder="John*" aria-label="First name" style="width: 50%;">
+                  <input type="text" class="form-control" id="LName" placeholder="Wick*" aria-label="Last name" style="width: 50%;">
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="John@wick.com*" style="width: 50%;">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="width: 50%;">Write your message here</textarea>
+                  <button class="btn btn-primary my-4" type="submit">Submit form</button>
+            </div>
+            </div>
+            <footer>
+              <p style="text-align: center;">CopyRight Reserved  <a href="javascript:void(0)" class="text-decoration-none">2022 - Present</a> by <a href="javascript:void(0)" class="text-decoration-none">@iInventors</a></p>
+            </footer>
+          </div>
+        </div>
+      </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
